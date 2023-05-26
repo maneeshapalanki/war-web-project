@@ -19,6 +19,21 @@
   		<scope>provided</scope>
   	</dependency>
   </dependencies>
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>pipeline Nexus Repository</name>
+	      <url>http://43.204.32.13:9999/manee/repository/pipeline/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>pipeline-snap Nexus Repository </name>
+	      <url>http://43.204.32.13:9999/manee/repository/pipeline-snap/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   <build>
     <plugins>
       <plugin>
