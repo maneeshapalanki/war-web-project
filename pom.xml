@@ -27,7 +27,7 @@
 	      <url>http://43.204.32.13:9999/manee/repository/pipeline/</url>
 	    </repository>
 	    
-	    <snapshotRepository>
+	   <snapshotRepository>
 	      <id>nexus</id>
 	      <name>pipeline-snap Nexus Repository </name>
 	      <url>http://43.204.32.13:9999/manee/repository/pipeline-snap/</url>
