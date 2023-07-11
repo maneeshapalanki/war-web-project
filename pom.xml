@@ -11,8 +11,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.111.215.95:9000/</sonar.host.url>
-		<sonar.login>squ_0b60d20f3a98a88b27d3b579ccccd4ca90b015f9</sonar.login>
+		<sonar.host.url>http://43.204.107.98:9000/</sonar.host.url>
+		<sonar.login>squ_112be5e77b1fac94d5c7da1770fbaa35ae0fed9d</sonar.login>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -34,14 +34,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>maneesha release Nexus Repository</name>
-	      <url>http://43.204.32.13:9999/manee/repository/maneesharelease/</url>
+	      <name>mavenrelease Nexus Repository</name>
+	      <url>http://65.2.191.39:8081/repository/mavenrelease/</url>
 	    </repository>
 	    
 	   <snapshotRepository>
 	      <id>nexus</id>
-	      <name>maneesha snapshot Nexus Repository</name>
-	      <url>http://43.204.32.13:9999/manee/repository/maneeshasnapshot/</url>
+	      <name>mavensnapshot Nexus Repository</name>
+	      <url>http://65.2.191.39:8081/repository/mavensnapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
